@@ -1,4 +1,4 @@
-package org.example.LeetCode75;
+package org.example.LeetCode75.Array_String;
 
 public class GreatesrCommonDivisorOfStrings {
     public static String gcdOfStrings(String str1, String str2) {

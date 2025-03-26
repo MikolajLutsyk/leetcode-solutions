@@ -1,4 +1,4 @@
-package org.example.LeetCode75;
+package org.example.LeetCode75.Array_String;
 
 public class StringCompression {
     public static int compress(char[] chars) {

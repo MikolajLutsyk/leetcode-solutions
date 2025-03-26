@@ -1,4 +1,4 @@
-package org.example.LeetCode75;
+package org.example.LeetCode75.Array_String;
 
 import java.util.Arrays;
 import java.util.List;
