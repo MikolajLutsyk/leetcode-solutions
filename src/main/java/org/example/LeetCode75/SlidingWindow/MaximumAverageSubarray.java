@@ -20,7 +20,6 @@ public class MaximumAverageSubarray {
             windowStart++;
             currentMaximum = Math.max(currentMaximum, currentWindowSum / k);
         }
-
         return currentMaximum;
     }
 }
