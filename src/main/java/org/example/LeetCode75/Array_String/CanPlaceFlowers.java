@@ -9,7 +9,7 @@ public class CanPlaceFlowers {
             if(n == 0){
                 return true;
             }
-            return flowerbed[0] == 1 ? false : true;
+            return flowerbed[0] != 1;
         }
 
         if(flowerbed[1] == 0 && flowerbed[0] == 0){
