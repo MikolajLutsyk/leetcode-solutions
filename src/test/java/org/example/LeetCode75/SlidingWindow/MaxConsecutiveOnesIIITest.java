@@ -3,9 +3,7 @@ package org.example.LeetCode75.SlidingWindow;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-
 import java.util.stream.Stream;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class MaxConsecutiveOnesIIITest {
@@ -21,7 +19,7 @@ class MaxConsecutiveOnesIIITest {
 
     @ParameterizedTest
     @MethodSource("testCases")
-    void maxVowels(int[] nums, int k, int expected) {
+    void largestOnes(int[] nums, int k, int expected) {
         int result = MaxConsecutiveOnesIII.largestOnes(nums, k);
         assertEquals(expected, result);
     }
